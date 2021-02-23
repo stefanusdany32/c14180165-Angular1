@@ -1,4 +1,16 @@
 <hello name="{{ name }}"></hello>
 <p>
-  Start editing to see some magic happen :)
+	Start editing to see some magic happen :)
 </p>
+<div *ngFor="let item of  bintang">
+	<span *ngFor="let j of item">
+        {{j}}
+    </span>
+</div>
+<div>
+	<input [(ngModel)]="inputan1" type="number" /><br>
+	<input [(ngModel)]="inputan2" type="number" /><br>
+	<button (click)="check()" > Submit </button>
+</div>
+{{user1}}<br>
+{{user2}}
