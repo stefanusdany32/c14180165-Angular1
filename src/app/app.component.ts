@@ -23,7 +23,7 @@ export class AppComponent  {
       var index1 : number = this.inputan1;
     var index2 : number = this.inputan2;
     this.bintang[index1 - 1][index2 - 1] = "0";
-    //this.bool = true;
+    this.bool = true;
    }
    this.win();
   }
